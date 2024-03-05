@@ -37,5 +37,5 @@ jobs:
       - name: Fix format?
         run: go fmt ./...   
       
-      - name: Check format
+      - name: Check format ok
         run: test -z $?
