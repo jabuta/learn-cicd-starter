@@ -41,4 +41,6 @@ jobs:
         run: go install honnef.co/go/tools/cmd/staticcheck@latest
 
       - name: Run staticcheck
-        run: go staticcheck ./...
+        uses: dominikh/staticcheck-action
+        with:
+          min-go-version: 1.20
