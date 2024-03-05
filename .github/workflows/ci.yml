@@ -33,6 +33,9 @@ jobs:
 
       - name: Check out code
         uses: actions/checkout@v3
-        
+
+      - name: Fix format
+        run: go fmt ./...   
+      
       - name: Check format
         run: test -z $(go fmt ./...)
