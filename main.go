@@ -12,9 +12,8 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/cors"
+	"github.com/jabuta/learn-cicd-starter/internal/database"
 	"github.com/joho/godotenv"
-
-	"github.com/bootdotdev/learn-cicd-starter/internal/database"
 
 	_ "github.com/go-sql-driver/mysql"
 )
