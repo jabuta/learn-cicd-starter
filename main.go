@@ -117,5 +117,5 @@ func addParseTimeParam(input string) (string, error) {
 	return returnUrl, nil
 }
 func unused() {
-//empty stuff
+	// empty stuff
 }
