@@ -38,6 +38,6 @@ jobs:
         run: test -z $(go fmt ./...)
 
       - name: Run staticcheck
-        uses: dominikh/staticcheck-action
+        uses: dominikh/staticcheck-action@v1.3.0
         with:
           install-go: false
